@@ -2,7 +2,7 @@
 # Project Structure
 `
 Project structured as follows:
-...
+```
 └── src/
     ├── carvana_dataset.py
     ├── unet.py
