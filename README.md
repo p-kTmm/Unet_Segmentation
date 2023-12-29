@@ -3,18 +3,18 @@
 
 Project structured as follows:
 .
-├── src/
-│ ├── carvana_dataset.py
-│ ├── unet.py
-│ ├── unet_parts.py
-│ ├── main.py
-│ ├── inference.py
-│ └── data/
-│ ├── manual_test
-│ ├── manual_test_mask
-│ ├── train
-│ └── train_mask
-└── models/
+└── src/
+    ├── carvana_dataset.py
+    ├── unet.py
+    ├── unet_parts.py
+    ├── main.py
+    ├── inference.py
+    ├── data/
+    │   ├── manual_test
+    │   ├── manual_test_mask
+    │   ├── train
+    │   └── train_mask
+    └── models/
 
 `carvana_dataset.py` creates the PyTorch dataset. `unet.py` is the file that contains the U-Net architecture. `unet_parts.py` contains the building blocks for the U-Net. `main.py` file contains the training loop. `inference.py` contains necessary functions to easily run inference for single and multiple images.
 
