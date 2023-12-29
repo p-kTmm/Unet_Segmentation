@@ -1,6 +1,6 @@
 # Unet_Segmentation
 # Project Structure
-`
+
 Project structured as follows:
 ```
 └── src/
